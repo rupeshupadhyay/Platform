@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.vscode/
+
+# FastAPI/Uvicorn specific
+.uvicorn_pid
+
+# Database files (if using SQLite or similar)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.*
+!template.env # If you have a template for environment variables
+
+# IDE-specific files (e.g., VS Code, PyCharm)
+.idea/
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+
+# Jupyter Notebook files (if applicable)
+.ipynb_checkpoints/
